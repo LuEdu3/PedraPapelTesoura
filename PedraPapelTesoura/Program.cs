@@ -22,13 +22,13 @@ switch (escolhamaquina)
     case 1:
         if (EscolhaDoUsuario == "Pedra")
         {
-            Console.WriteLine("Usuário escolheu pedra");
+            Console.WriteLine("\nUsuário escolheu pedra");
             Console.WriteLine("Máquina escolheu pedra");
             Console.WriteLine("é um empate");
         }
         else if (EscolhaDoUsuario == "Papel")
         {
-            Console.WriteLine("Usuário escolheu papel");
+            Console.WriteLine("\nUsuário escolheu papel");
             Console.WriteLine("Máquina escolheu pedra");
             Console.WriteLine("Usuário venceu");
             pontosusuario++;
@@ -36,7 +36,7 @@ switch (escolhamaquina)
         }
         else if (EscolhaDoUsuario == "Tesoura")
         {
-            Console.WriteLine("Usuário escolheu tesoura");
+            Console.WriteLine("\nUsuário escolheu tesoura");
             Console.WriteLine("Máquina escolheu pedra");
             Console.WriteLine("Máquina venceu");
             pontosmaquina++;
@@ -46,13 +46,13 @@ switch (escolhamaquina)
     case 2:
         if (EscolhaDoUsuario == "Pedra")
         {
-            Console.WriteLine("Usuário escolheu pedra");
+            Console.WriteLine("\nUsuário escolheu pedra");
             Console.WriteLine("Máquina escolheu pedra");
             Console.WriteLine("é um empate");
         }
         else if (EscolhaDoUsuario == "Papel")
         {
-            Console.WriteLine("Usuário escolheu papel");
+            Console.WriteLine("\nUsuário escolheu papel");
             Console.WriteLine("Máquina escolheu pedra");
             Console.WriteLine("Usuário venceu");
             pontosusuario++;
@@ -60,7 +60,7 @@ switch (escolhamaquina)
         }
         else if (EscolhaDoUsuario == "Tesoura")
         {
-            Console.WriteLine("Usuário escolheu tesoura");
+            Console.WriteLine("\nUsuário escolheu tesoura");
             Console.WriteLine("Máquina escolheu pedra");
             Console.WriteLine("Máquina venceu");
             pontosmaquina++;
@@ -69,7 +69,7 @@ switch (escolhamaquina)
     case 3:
         if (EscolhaDoUsuario == "Pedra")
         {
-            Console.WriteLine("Usuário escolheu pedra");
+            Console.WriteLine("\nUsuário escolheu pedra");
             Console.WriteLine("Maquina escolheu tesoura");
             Console.WriteLine("Usuário venceu");
             pontosusuario++;
@@ -77,14 +77,14 @@ switch (escolhamaquina)
         }
         else if (EscolhaDoUsuario == "Papel")
         {
-            Console.WriteLine("Usuário escolheu papel");
+            Console.WriteLine("\nUsuário escolheu papel");
             Console.WriteLine("Maquina escolheu tesoura");
             Console.WriteLine("Máquina venceu");
             pontosmaquina++;
         }
         else if (EscolhaDoUsuario == "Tesoura")
         {
-            Console.WriteLine("Usuário escolheu tesoura");
+            Console.WriteLine("\nUsuário escolheu tesoura");
             Console.WriteLine("Máquina escolheu tesoura");
             Console.WriteLine("é um empate");
         }
@@ -95,9 +95,9 @@ switch (escolhamaquina)
 if(repetirjogo == false)
 {
     Console.WriteLine($"\nUsuário fez {pontosusuario} pontos");
-    Console.WriteLine($"\nMáquina fez {pontosusuario} pontos");
+    Console.WriteLine($"Máquina fez {pontosusuario} pontos");
     Console.WriteLine("\nQuer jogar novamente?");
-    Console.WriteLine("\nInsira S ou N");
+    Console.WriteLine("Insira S ou N");
     string jogardnv = Console.ReadLine().ToLower();
     if(jogardnv == "s")
     {
@@ -106,11 +106,3 @@ if(repetirjogo == false)
         pontosusuario = 0;
     }
 }
-
-//    Console.WriteLine("Quer jogar novamente?");
-//     Console.WriteLine("Insira S ou N");
-    
-//     if(jogardnv == N || jogardnv == n)
-//     {
-    
-//     }
