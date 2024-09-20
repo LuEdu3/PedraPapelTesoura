@@ -1,7 +1,7 @@
 # PedraPapelTesoura
-Atividade 01 Crie um jogo de Pedra Papel Tesoura
+## Atividade 01 Crie um jogo de Pedra Papel Tesoura
 
-*1*
+### 1
 
 É informado as opções para jogar, o usuário precisa digitar a sua escolha entre pedra papel e tesoura.
 
